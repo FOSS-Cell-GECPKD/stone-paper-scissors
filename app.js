@@ -7,7 +7,7 @@ let yScore = 0;
 let cScore = 0;
 let computerChoice = '';
 
-function computerOption(){
+const  computerOption = () => {
     let randomNumber = Math.floor(Math.random() * 3);
     
     if(randomNumber === 0){
@@ -18,10 +18,10 @@ function computerOption(){
         computerChoice = 'scissor';
     }
     return computerChoice;
-}
+};
 
-for(var i = 0; i < btn.length; i++){
-    btn[i].addEventListener('click', function(){
+for(let i = 0; i < btn.length; i++){
+    btn[i].addEventListener('click', () => {
     let cmp = computerOption();
     if(cmp == this.id){
         result.innerText = "Tie";
