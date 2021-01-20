@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="img" src="images/stone.png" alt="stone-img">
+            <button id='stone' class='btn'>Stone</button>
+        </div>
+        <div class="card">
+            <img src="images/paper.png" alt="paper-img">
+            <button id='paper' class='btn'>Paper</button>
+        </div>
+        <div class="card">
+            <img src="images/scissors.png" alt="scissor-img">
+            <button id='scissor' class='btn'>Scissor</button>
+        </div>
+  
+</div>
+<div class="result">
+    <h1 id='result'></h1>
+</div>
+
+<div class='score-container'>
+  <table>
+    <thead>
+        <tr>
+            <th colspan="2">Score Board</th>
+        </tr>
+      <tr>
+        <th colspan="1">You</th>
+        <th colspan="1">Computer</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class='your-score'>0</td>
+            <td class='computer-score'>0</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
