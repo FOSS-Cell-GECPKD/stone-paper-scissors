@@ -23,7 +23,6 @@ function computerOption(){
 for(var i = 0; i < btn.length; i++){
     btn[i].addEventListener('click', function(){
     let cmp = computerOption();
-    console.log(cmp + ' ' + this.id);
     if(cmp == this.id){
         result.innerText = "Tie";
     } else if(cmp == 'stone' && this.id == 'paper'){
