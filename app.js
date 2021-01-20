@@ -1,10 +1,5 @@
 // jshint esversion:6
-
-const stone = document.getElementById('stone');
-const scissor = document.getElementById('scissor');
-const paper = document.getElementById('paper');
 const result = document.getElementById('result');
-const score = document.querySelector('.score');
 const yourScore = document.querySelector('.your-score');
 const computerScore = document.querySelector('.computer-score');
 const btn = document.querySelectorAll('.btn');
