@@ -21,7 +21,7 @@ const  computerOption = () => {
 };
 
 for(let i = 0; i < btn.length; i++){
-    btn[i].addEventListener('click', () => {
+    btn[i].addEventListener('click', function() {
     let cmp = computerOption();
     if(cmp == this.id){
         result.innerText = "Tie";
